@@ -11,18 +11,29 @@
 <body>
     <header>
         <h1>Typing Test</h1>
-        <label for="mode">Select Mode:</label>
-        <select id="mode">
-            <option value="easy">Easy</option>
-            <option value="medium">Medium</option>
-            <option value="hard">Hard</option>
-        </select>
+        <div class="navbar">
+            <h1>TypeFast</h1>
+            <div class="nav-links">
+                <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                <a href="practice.html"><i class="fas fa-keyboard"></i> Practice</a>
+                <a href=""><i class="fas fa-trophy"></i> Leaderboard</a>
+                <a href="setting.html"><i class="fas fa-cog"></i> Settings</a>
+            </div>
+        </div>
     </header>
-
     <main>
-        <p id="word-display"></p>
-        <input type="text" id="input-field" autofocus>
-        <p id="results">Results : </p>
+        <div class="controls">
+            <label for="mode"><i class="fas fa-sliders-h"></i> Difficulty:</label>
+            <select id="mode">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+        </div>
+        
+        <div id="word-display">Press any key to start...</div>
+        <input type="text" id="input-field" placeholder="Type here..." autofocus>
+        <div id="results">Results will appear here</div>
     </main>
 
     <script src="script.js"></script>

@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #e5e5e5;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #2c2c2c;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    color: #004cff;
+    margin: 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.nav-links a.active {
+    color: #004cff;
+}
+
+.settings-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+}
+
+.setting-option {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.setting-option label {
+    display: block;
+    margin-bottom: 8px;
+    color: #004cff;
+    font-weight: bold;
+}
+
+.setting-option select {
+    width: 100%;
+    padding: 10px;
+    background-color: #444;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 4px;
+}
+
+.save-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #004cff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.save-btn:hover {
+    background-color: #003bbd;
+}
+
+.logout-btn {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #333;
+    color: #ff4d4d;
+    border: 1px solid #ff4d4d;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
